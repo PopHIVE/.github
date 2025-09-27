@@ -13,11 +13,11 @@
 
 ## Using these data
 
-The data shown on PopHIVE.org are found in ./Data/Webslim/. These files are mostly stored in parquet format. If using R, these can be downloaded using the arrow package in R. For example:
+The data shown on PopHIVE.org are found in the Ingest project ./Data/bundle_*/dist/ subfolders. These files are mostly stored in parquet format. If using R, these can be downloaded using the arrow package in R. For example:
 
 library(arrow)
 
-url1 \<- '<https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/heads/main/Data/Webslim/respiratory_diseases/rsv/ed_visits_by_county.parquet>'
+url1 \<- '<https://github.com/PopHIVE/Ingest/raw/refs/heads/main/data/bundle_respiratory/dist/covid_overall_trends.parquet>'
 
 ds1 \<- read_parquet(url1)
 
@@ -27,7 +27,8 @@ In general, the data closest to the source data are found in the 'value' column.
 
 2)  For Epic Cosmos, if the data are based on fewer than 10 counts, the cell is suppressed. For visualization purposes, this is filled in with a value halfway between 0 and the minimum value reported for that state. These values are indicated with suppressed_flag=1.
 
-Time-stamped archives of the data are available in the Pulled Data folder.
+3)  Previous versions of all files can be accessed from the Git history. The dcf package has a function to facilitate pulling previous versions of the files based on the commmit hash. For more details see [here](https://dissc-yale.github.io/dcf/reference/dcf_get_file.html)
+
 
 ## FAQ
 
