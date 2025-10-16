@@ -44,7 +44,9 @@ Documentation for our databases can be found on our [Process documentation](http
 
 *Can I re-use the data from PopHIVE?*
 
-Yes! Much of the data are drawn from publicly available Federal datasets obtained from CDC or data.gov. Other data, including the results of research performed using Epic Cosmos or the data available through Google Health Trends, can be used with appropriate attribution. A suggested citation relating to this data is 'Results of research performed with Epic Cosmos were obtained from the PopHIVE platform [url for Github corresponding to the specific data source].'
+Yes! Much of the data are drawn from publicly available Federal datasets obtained from CDC or data.gov. Other data, including the results of research performed using Epic Cosmos or the data available through Google Health Trends, can be used with appropriate attribution. A suggested citation relating to this data is 'Results of research performed with Epic Cosmos were obtained from the PopHIVE platform [url for Github corresponding to the specific data source].’
+
+Please cite the use of data from PopHIVE and the original source. the DOI for PopHIVE is [![DOI](https://zenodo.org/badge/1018069747.svg)](https://doi.org/10.5281/zenodo.17345935)
 
 *Who is it for?* PopHIVE is designed for a broad audience: - Members of the public who want to understand what's happening in their communities. - Clinicians who need to anticipate trends and adjust care. - Public health departments and local governments who need up-to-date data to allocate resources. - Researchers, journalists, and advocates working to tell stories and drive policy change. - Policy makers and decision-makers who need to understand the basics of who, what, and where about health issues occurring in the areas they serve.
 
