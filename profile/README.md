@@ -37,9 +37,6 @@ In general, the data closest to the source data are found in the 'value' column.
 
 Documentation for our databases can be found on our [Process documentation](https://pophive.github.io/processing-documentation/) page
 
-## Where can I learn more about the data and processing
-Documentation for our databases can be found on our [Process documentation](https://pophive.github.io/processing-documentation/) page
-
 ## See the data flows and relationships
 https://github.com/PopHIVE/Ingest/blob/main/status.md
 
