@@ -88,6 +88,9 @@ October 6, 2025:
 - We have switched to pulling data using our https://github.com/PopHIVE/Ingest pipeline. This replaces the old system at https://github.com/ysph-dsde/PopHIVE_DataHub. 
 - To better align with professional society guidance documents, we have modified our diabetes definition used for the Epic Cosmos platform from Hemoglobin A1c >= 7 to >=6.5. Data using the previous definition can be found in the Git file history
 
+Jan 12, 2026
+- We have re-calculated the 'all-sites'/'United States' values for the pneumococcal ABCs surveillance data to only include the 8 sites that have consistently reported since 1998. This allows for more accurate evaluation of long-term trends and was made possible by the recent release of site-level data by CDC.
+
 ## Legal Disclaimer
 
 These data and PopHIVE statistical outputs are provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors, contributors, or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the data or the use or other dealings in the data.
