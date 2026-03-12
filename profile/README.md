@@ -45,8 +45,6 @@ In general, the data closest to the source data are found in the 'value' column.
 
 2)  For Epic Cosmos, if the data are based on fewer than 10 counts, the cell is suppressed. For visualization purposes, this is filled in with a value halfway between 0 and the minimum value reported for that state. These values are indicated with suppressed_flag=1.
 
-Time-stamped archives of the data are available in the Pulled Data folder.
-
 ## FAQ
 
 *Can I re-use the data from PopHIVE?*
